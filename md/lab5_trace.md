@@ -48,7 +48,7 @@ This will record the trace and place it into the file named trace.zip in your te
 
 You can open the saved trace using the Playwright CLI or in your browser on `trace.playwright.dev`. Make sure to add the full path to where your t/tr   race.zip file is located. This should include the test-results directory followed by the test name and then trace.zip.
 
-`playwright show-trace UPDATE_PATH/trace.zip`
+`playwright show-trace UPDATE_PATH\trace.zip`
 
 ![](./images/3.png)
 
